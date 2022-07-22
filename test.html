@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Test Page</title>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <style>
+/*        #myDiv{
+            background-color: orange;
+        }
+*/
+    </style>
+</head>
+<body>
+    <h1>jQuery Test Page</h1>
+    <div id="myDiv">This is text inside a div with an ID of myDiv</div>
+    <script>
+        jQuery("document").ready(function(){});
+        $("document").ready(function(){});
+        $(function(){
+            //alert("I'm jQuery!")
+            $("div#myDiv").css("background-color: orange")
+        });
+    </script>
+</body>
+</html>
